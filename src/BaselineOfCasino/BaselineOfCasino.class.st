@@ -129,7 +129,7 @@ BaselineOfCasino >> defineGroups: spec [
 			#( 'core' 'Casino-Model-UI-SubEntities'
 			   'Casino-Model-Layout-Extension' );
 		group: 'importer-java'
-		with: #( 'core-extented' 'Casino-Model-Importer-Java' );
+		with: #( 'core-extented' 'Casino-Model-Importer-Java');
 		group: 'bl-tests'
 		with: #( 'bl' 'default-tests' 'Casino-Model-CoreWeb-Importer-Tests'
 			   'Casino-Model-CoreWeb-Exporter-Tests' );
