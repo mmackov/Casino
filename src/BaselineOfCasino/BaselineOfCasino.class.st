@@ -129,7 +129,7 @@ BaselineOfCasino >> defineGroups: spec [
 			#( 'core' 'Casino-Model-UI-SubEntities'
 			   'Casino-Model-Layout-Extension' );
 		group: 'importer-java'
-		with: #( 'core-extented' 'Casino-Model-Importer-Java' 'Famix2Java');
+		with: #( 'core-extented' 'Casino-Model-Importer-Java');
 		group: 'bl-tests'
 		with: #( 'bl' 'default-tests' 'Casino-Model-CoreWeb-Importer-Tests'
 			   'Casino-Model-CoreWeb-Exporter-Tests' );
@@ -191,7 +191,7 @@ BaselineOfCasino >> definePackages: spec [
 		package: 'Casino-Behavior-Model-Exporter-Angular-Tests' with: [ spec requires: #('Casino-Model-Exporter-Angular') ];
 		package: 'Casino-Model-Importer' with: [ spec requires: #('Casino-Model-CoreWeb-Visitor' 'MoreLogger' 'Casino-Helper') ];
 		package: 'Casino-Model-Importer-Tests' with: [ spec requires: #('Casino-Model-Importer') ];
-		package: 'Casino-Model-Importer-Java' with: [ spec requires: #('Casino-Model-Importer' 'Carrefour' 'Moose' 'FamixJava') ];
+		package: 'Casino-Model-Importer-Java' with: [ spec requires: #('Casino-Model-Importer' 'Carrefour') ];
 		package: 'Casino-Model-Importer-Java-Tests' with: [ spec requires: #('Casino-Model-Importer-Java') ];
 		package: 'Casino-Model-CoreWeb' with: [ spec requires: #('Casino-Model-UI-SubEntities' 'Casino-Model' 'Casino-Model-CoreWeb-Generator') ];
 		package: 'Casino-Model-CoreWeb-Generator' with: [ spec requires: #('Casino-Model-UI-SubEntities-Generator' 'Casino-Model-Generator') ];
