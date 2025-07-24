@@ -1,6 +1,6 @@
-Extension { #name : #FamixTParameterizedType }
+Extension { #name : #FamixJavaInvocation }
 
 { #category : #'*Casino-Model-Importer-Java' }
-FamixTParameterizedType >> invokedClassName [
-	^ self name
+FamixJavaInvocation >> invokedClassName [
+	^ self invokedEntity name
 ]
